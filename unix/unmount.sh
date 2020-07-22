@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -eo pipefail
+
 # unmount windows devices
 umount /dev/sda1
 umount /dev/sdb1

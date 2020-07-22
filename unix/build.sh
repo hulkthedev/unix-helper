@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -eo pipefail
+
 # install packages
 echo '=== Installing Packages ===';
 sudo apt-get update

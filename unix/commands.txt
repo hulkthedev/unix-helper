@@ -1,0 +1,27 @@
+[System]
+df -h
+free -h
+top
+systemctl (systemctl status docker)
+ufw (firewall)
+
+
+# if dpkg process is locked, try
+ps aux | grep apt
+kill processnumber
+
+
+
+
+[Hosts]
+nano /etc/hosts
+127.0.0.1:88 timetool.local
+
+
+
+
+[Directories]
+pwd
+whoami
+
+cat /etc/fstab
